@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .btn {
+        @apply bg-[#42b0d1] hover:bg-[#8cdae4] transition-all duration-200;
+    }
+    .container {
+        @apply mx-auto;
+    }
+}
